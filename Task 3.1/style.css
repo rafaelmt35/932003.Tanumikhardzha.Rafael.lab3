@@ -16,6 +16,7 @@ header {
   font-size: 18px;
   padding-top: 5px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -27,7 +28,7 @@ footer {
 
 .container {
   position: relative;
-  min-height: calc(100vh-70px);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -35,8 +36,8 @@ footer {
 .menuContainer {
   background-color: red;
   padding: 15px;
-  min-width: 130px;
-  max-width: 130px;
+  min-width: 165px;
+  max-width: 165px;
   margin-right: 20px;
 }
 
@@ -45,12 +46,13 @@ ul {
   margin-top: 10px;
   display: inline-block;
   width: 60%;
-  font-size: 15px;
+  font-size: 13px;
   list-style-type: none;
   color: white;
   text-decoration: underline;
 }
 li {
+  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
 }
 li:hover {
@@ -62,6 +64,7 @@ p {
   max-width: 400px;
   text-align: justify;
   font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 p::selection {
   color: white;
